@@ -14,6 +14,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Ofast -std=c++20 -DkNO_KEYSTONE")
 #link_libraries("-lm -ldl -lpthread")
 
 add_executable(
-    KittyMemoryExExample
+    example
     example.cpp
     ${KITTYMEMORY_SRC})
